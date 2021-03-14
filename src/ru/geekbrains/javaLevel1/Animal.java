@@ -1,9 +1,9 @@
 package ru.geekbrains.javaLevel1;
 
 public class Animal {
-    private String name;
-    private String color;
-    private int age;
+    protected String name;
+    protected String color;
+    protected int age;
 
     public Animal(String  name, String color, int age) {
         this.name = name;
@@ -11,6 +11,12 @@ public class Animal {
         this.age = age;
     }
 
+    protected String getName() {
+        return name;
+    }
+
+
+    @Override
     public String toString() {
         return "Animal{" +
                 "name='" + name + '\'' +

@@ -8,8 +8,10 @@ public class Main {
 
     public static void main(String[] args) {
         Cat cat = new Cat("Barsick", "Black", 5);
-
         Dog dog = new Dog("Bobik", "Red", 3);
+
+        System.out.println(cat.toString());
+        System.out.println(dog.toString());
 
     }
 
