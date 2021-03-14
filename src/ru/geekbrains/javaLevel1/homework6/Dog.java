@@ -10,7 +10,7 @@ public class Dog extends Animal{
         if (runResult > length) {
             System.out.println("Dog " + name + " run the distance of (" + length + ")");
         } else {
-            System.out.println("Dog " + name + " failed!");
+            System.out.println("Dog " + name + " can't pass this distance");
         }
     }
 
@@ -19,7 +19,7 @@ public class Dog extends Animal{
         if (swimResult > length) {
             System.out.println("Dog " + name + " swam the distance of (" + length + ")");
         } else {
-            System.out.println("Dog " + name + " failed!");
+            System.out.println("Dog " + name + " can't pass this distance");
         }
     }
 
