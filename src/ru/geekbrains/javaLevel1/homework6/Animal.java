@@ -23,5 +23,13 @@ public class Animal {
         return swimResult;
     }
 
+    public void run(int length) {
+
+    }
+
+    public void swim(int length) {
+
+    }
+
 
 }
