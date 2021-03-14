@@ -5,11 +5,26 @@ public class Main {
 //    статический метод может быть вызван в статическом методе или нестатическом методе
 //    нестатический метод может быть вызван только в нестатическом методе либо с явной передачей объекта
 
+
+    private static String name;
+    private String type;
+
     public static void main(String[] args) {
-	// write your code here
+        Main main1 = new Main();
+        Main main2 = new Main();
+
     }
 
-    public String getName() {
-        return "";
+    public String getType() {
+        return type;
     }
+
+    public static String getName() {
+        return name;
+    }
+
+    public String print() {
+        System.out.println(name + type);
+    }
+
 }
